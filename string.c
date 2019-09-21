@@ -25,3 +25,8 @@ int main(void)
 
    return 0;
 }
+
+char *mycpy(char *t){
+  char*p = t;
+  return p;
+}
