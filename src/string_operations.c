@@ -1,4 +1,10 @@
 #include <stdio.h>
+char *strct(char *s1,char *s2){
+	char *strct = s1;
+	return strct;
+
+
+}
 
 size_t my_strlen(const char *s)
 {
