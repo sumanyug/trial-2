@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+#include<wchar.h>
+
 char *strct(char *s1,char *s2){
 	char *strct = s1;
 	return strct;
@@ -35,4 +38,11 @@ int main(void)
 char *mycpy(char *t){
   char*p = t;
   return p;
+}
+
+size_t w_strlen(const whcar_t *s){
+	const wchar_t *p = s;
+	while(*p)
+		++p;
+	return (p-s);
 }
